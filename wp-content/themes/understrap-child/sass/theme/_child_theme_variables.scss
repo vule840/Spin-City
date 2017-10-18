@@ -1,0 +1,33 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,500,700,800,900&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&subset=latin-ext');
+
+$naslovi-font: 			'Exo 2', sans-serif;
+$tekst-font: 			'Open Sans', sans-serif;
+
+$tekst-lj-boja: 			#4D2952;
+$tekst-bj-boja: 			#ffffff;
+	
+$brand-primary:         #fece00; //#ff6d5a
+$tx-boja-ljubicasta: 	#4d2952;
+$zlatna:  				#fdbc1f;
+
+//carusel kontrole
+
+$carousel-control-color:		$zlatna;
+$carousel-caption-color:		$zlatna;
+$carousel-indicator-active-bg: $zlatna;
+
+
+// Varibles
+$main-font: 'Roboto',sans-serif;
+$primary-color: #57e2b2;
+$light-gray: #f8f8f8;
+$main-font-color: #808080;
+$main-font-weight: 300;
