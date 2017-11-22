@@ -31,13 +31,13 @@ var animated = false; //added variable to control the animation
     var wS = $(this).scrollTop();
     if (animated && wS <= 10) {
       $("#test-box").animate({
-        'left': 0
+        'left': 700
       }, 800);
       animated = false; //animation ended
     }
     if (!animated && wS > 11) {
       $("#test-box").animate({
-        'left': $('#main-container').width() - 0
+        'left': $('#main-container').width() - 50
       }, 800);
       animated = true; //it was animated
     }

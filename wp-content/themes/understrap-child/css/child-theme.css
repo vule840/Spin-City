@@ -9461,6 +9461,15 @@ video::-webkit-media-controls {
       display: inline a;
         display-float: left; }
 
+/************************************
+
+						HOME_CTA
+
+		*****************************************/
+#CTA {
+  background: #3e4149;
+  padding: 3em 0; }
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -9496,7 +9505,8 @@ video::-webkit-media-controls {
   text-align: center;
   padding: 5em 0;
   color: #fff;
-  position: relative; }
+  position: relative;
+  top: 10%; }
 
 .cover .btn-lg, .cover .btn-group-lg > .btn, .cover .wpcf7 .btn-group-lg > input[type=submit], .wpcf7 .cover .btn-group-lg > input[type=submit] {
   padding: .75rem 1.25rem;
@@ -9612,7 +9622,8 @@ section.red {
     min-width: 100%;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    filter: brightness(50%); }
 
 #tri_videa video {
   height: auto;

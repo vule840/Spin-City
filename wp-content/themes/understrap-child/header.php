@@ -110,10 +110,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</nav><!-- .site-navigation -->
 
 
-				        </div>
 
-
-
+							<!-- https://codepen.io/AllThingsSmitty/pen/NbLLjb -->	
 					  <!-- video from http://evb.com, I hope they don't mind much :) -->
 					  <video loop preload autoplay>
 					    <source id="source_polar_mp4" src="wp-content/uploads/2017/11/Spin City_animacija.mp4" type="video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
@@ -121,19 +119,28 @@ $container = get_theme_mod( 'understrap_container_type' );
 					  </video>
 
 
-					  <div class="inner cover">
+					  		
+
+				        </div><!-- conainter -->
+
+						<div class="inner cover">
 
 									<h1 class="cover-heading"><?php the_title();?></h1>
-							            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. </p>
+							            <p class="lead">SAZNAJ VIŠE  <i class="fa fa-play fa-2x text-center" aria-hidden="true"></i> </p>
 
 							            <!-- <p class="scroll-auto"> </p> -->
-							             
-							            	<div id="main-container">
-											  <div id="test-box">test</div>
-											</div>	
+							            	
+				         </div>
+
+				         <div class="container">
+				         	<img style="position: relative;" src="wp-content/uploads/2017/10/auto_mali_gore.png" alt="">
+				         	<div id="main-container">
+								 <div id="test-box">test</div> ....................................................	 
+								</div>	
         
-				          		</div>
-							</section>
+				         </div>
+				
+					</section>
 
 
 			<?php endif ?> 
@@ -153,57 +160,56 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	
         <div class="container">
-				<nav class="navbar navbar-expand-md navbar-dark ">
+			<nav class="navbar navbar-expand-md navbar-dark ">
 
-		<?php if ( 'container' == $container ) : ?>
-			<div class="container">
-		<?php endif; ?>
+				<?php if ( 'container' == $container ) : ?>
+					<div class="container">
+				<?php endif; ?>
 
-					<!-- Your site title as branding in the menu -->
-					<?php if ( ! has_custom_logo() ) { ?>
+							<!-- Your site title as branding in the menu -->
+							<?php if ( ! has_custom_logo() ) { ?>
 
-						<?php if ( is_front_page() && is_home() ) : ?>
+								<?php if ( is_front_page() && is_home() ) : ?>
 
-							<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+									<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+									
+								<?php else : ?>
+
+									<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+								
+								<?php endif; ?>
+								
 							
-						<?php else : ?>
+							<?php } else {
+								the_custom_logo();
+							} ?><!-- end custom logo -->
 
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<!-- The WordPress Menu goes here -->
+						<?php wp_nav_menu(
+							array(
+								'theme_location'  => 'primary',
+								'container_class' => 'collapse navbar-collapse',
+								'container_id'    => 'navbarNavDropdown',
+								'menu_class'      => 'navbar-nav',
+								'fallback_cb'     => '',
+								'menu_id'         => 'main-menu',
+								'walker'          => new WP_Bootstrap_Navwalker(),
+							)
+						); ?>
 						
-						<?php endif; ?>
-						
-					
-					<?php } else {
-						the_custom_logo();
-					} ?><!-- end custom logo -->
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<!-- The WordPress Menu goes here -->
-				<?php wp_nav_menu(
-					array(
-						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav',
-						'fallback_cb'     => '',
-						'menu_id'         => 'main-menu',
-						'walker'          => new WP_Bootstrap_Navwalker(),
-					)
-				); ?>
-				
-			<?php if ( 'container' == $container ) : ?>
-			</div><!-- .container -->
-			<?php endif; ?>
+					<?php if ( 'container' == $container ) : ?>
+					</div><!-- .container -->
+					<?php endif; ?>
 			
 			
 			<!--  <li id="" class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a class=" nav-link" href="#">POSTANI ČLAN</a></li> -->
 
 
 			<!-- <a class="postani_clan" href="#">POSTANI ČLAN</a> -->
-				
 		
 			
 			<button type="button" class="btn btn-primary prijava">PRIJAVA</button>
@@ -212,11 +218,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 
-
-
  <div class="inner cover">
-
-		
 			<h1 class="cover-heading"><?php the_title();?></h1>
 	            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. </p>
 	            <p class="lead">
@@ -224,22 +226,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 	             <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> --> 
 	            </p>
 	
-        
           </div>
-
-      <!--   <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="https://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div> -->  
 
         </div>
 
       </div>
 
     </div>
-	<?php endif ?>
+ <?php endif ?>
 
 
-
-	</div><!-- .wrapper-navbar end -->
+</div><!-- .wrapper-navbar end -->

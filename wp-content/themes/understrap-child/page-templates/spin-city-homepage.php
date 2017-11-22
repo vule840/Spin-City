@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
 
         </div> -->
-	
+	 
 
         <!-- /************************************
 
@@ -180,7 +180,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		*****************************************/ -->
 
-		<div class="fluid-container p-5" id="tabovi">
+		<div class="fluid-container py-5" id="tabovi">
 				<div class="row">
 				<div class="col-md-4 col-sm-12 col-xs-12  ml-auto ikone">
 					<div class="col-md-12 text-center">	<img src="wp-content/uploads/2017/10/SpinCity_logo.png" alt=""></div>
@@ -480,6 +480,33 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 						</div>
+
+
+	<!-- /************************************
+
+						HOME_CTA
+
+		*****************************************/ -->
+	
+							
+							<div class="fluid-contanier" id="CTA">
+								<div class="row">
+									<div class="col-md-12 text-center"><h2 class="text-white">Samo uskoči i vozi! Parking je besplatan.</h2></div>
+								
+							
+									<!-- ispod karata tx -->
+									<div class="col-md-12 text-center"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum metus non mattis ullamcorper. In et leo massa. Nullam laoreet libero et nibh egestas vulputate. 
+										</p>
+									<button type="button" class="btn btn-primary">SAZNAJ VIŠE</button>	
+									</div>	
+									
+										
+								</div><!-- row end -->	
+
+									
+							</div>	
+							
+				
 
 			<!-- /************************************
 

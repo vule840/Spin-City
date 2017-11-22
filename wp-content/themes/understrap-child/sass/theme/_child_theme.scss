@@ -380,6 +380,17 @@ color:white;
 }
 }
 
+/************************************
+
+						HOME_CTA
+
+		*****************************************/ 
+
+#CTA{
+	background:#3e4149;
+	    padding: 3em 0;
+}
+
 ////////////////////////////COVER_PAGE*/
 
 
@@ -425,6 +436,7 @@ color:white;
     padding: 5em 0;
     color: #fff;
         position: relative;
+        top: 10%;
 }
 
 .cover .btn-lg {
@@ -563,7 +575,7 @@ ul.footer{
 
 .video-container {
   position: relative;
-}
+} 
 
 section.red {
   height: 100vh;
@@ -576,6 +588,7 @@ section.red {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
+  filter: brightness(50%)
 }
 }
 

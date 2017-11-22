@@ -8,6 +8,7 @@ var basePaths = {
 // browser-sync watched files
 // automatically reloads the page when files changed
 var browserSyncWatchFiles = [
+   /* './css/*.css',*/
     './css/*.min.css',
     './js/*.min.js',
     './*.php',
@@ -17,7 +18,7 @@ var browserSyncWatchFiles = [
 // browser-sync options
 // see: https://www.browsersync.io/docs/options/
 var browserSyncOptions = {
-    proxy: "localhost/spincity/",
+    proxy: "localhost:3000/spincity/",
     notify: false
 };
 
