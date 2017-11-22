@@ -42,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row ponude hidden-lg-down">	
 		<div class="col-xl-5 col-sm-12">
 
-			<img src="https://spincity.rentals/wp-content/uploads/2017/05/Spin_slika.jpg" alt="">
+			<img src="../wp-content/uploads/2017/11/Registriraj-se-putem.jpg" alt="">
 		</div>
 
 			<div class="col-xl-7 col-sm-12 centar">
@@ -74,7 +74,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				
 		
 				</div>
-			<div class="col-xl-5 col-sm-12 lijevo"><img style="float:right" class="srednja_slika" src="https://spincity.rentals/wp-content/uploads/2017/05/Spin_slika_2.jpg" alt=""></div>	
+			<div class="col-xl-5 col-sm-12 lijevo"><img style="float:right" class="srednja_slika" src="../wp-content/uploads/2017/11/preuzmi_aplikaciju.jpg" alt=""></div>	
 		</div>
 
 		<!-- treći RED -->
@@ -82,7 +82,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row ponude hidden-lg-down">	
 		<div class="col-xl-5 col-sm-12">
 
-			<img src="https://spincity.rentals/wp-content/uploads/2017/05/Spin_slika.jpg" alt="">
+			<img src="../wp-content/uploads/2017/11/Uživaj-u-vožnji.jpg" alt="">
 		</div>
 
 			<div class="col-xl-7 col-sm-12 centar">
@@ -117,7 +117,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="card-group">
 						  <div class="card p-5 col-lg-4 col-md-12 col-xs-4">
-						    <img class="card-img-top" src="../wp-content/uploads/2017/10/ikona_lociraj.png" alt="Card image cap">
+						    <img class="lociraj1 mx-auto my-3" src="../wp-content/uploads/2017/10/ikona_lociraj.png" alt="Card image cap">
 						    <div class="card-body">
 						      <h2 class="card-title text-center">LOCIRAJ VOZILO</h2>
 						      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -130,7 +130,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						    </div>
 						  </div>
 						  <div class="card p-5 col-lg-4 col-md-12 col-xs-4">
-						    <img class="card-img-top" src="../wp-content/uploads/2017/10/2_ikona.png" alt="Card image cap">
+						    <img class="vozi2 mx-auto my-3" src="../wp-content/uploads/2017/10/2_ikona.png" alt="Card image cap">
 						    <div class="card-body">
 						      <h2 class="card-title text-center">VOZI OD TOČKE A DO TOČKE B</h2>
 						      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -143,7 +143,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						    </div>
 						  </div>
 						  <div class="card p-5 col-lg-4 col-md-12 col-xs-12">
-						    <img class="card-img-top" src="..." alt="Card image cap">
+						    <img class="napravi3 mx-auto my-3" src="../wp-content/uploads/2017/11/napravi_stanku_ikona.png" alt="Card image cap">
 
 						    <div class="card-body">
 						      <h2 class="card-title text-center">NAPRAVI STANKU</h2>
@@ -157,7 +157,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						    </div>
 						  </div>
 						  <div class="card p-5 col-lg-4 col-md-12 col-xs-12">
-						    <img class="card-img-top" src="..." alt="Card image cap">
+						    <img class="parkiraj4 mx-auto my-3" src="../wp-content/uploads/2017/11/besplatno_parkiraj_ikona.png" alt="Card image cap">
 						    <div class="card-body">
 						      <h2 class="card-title text-center">BESPLATNO PARKIRAJ</h2>
 						      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -194,7 +194,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					      
 					    </div>
 					    <div class="carousel-item">
-					      <img src="../wp-content/uploads/2017/10/app_slika.png">
+					      <img src="https://media.giphy.com/media/xT39Dn06BElOnISS40/giphy.gif">
 					      
 					    </div>
 					   

@@ -42,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-center">
 				
 				<div class="col-md-4">
-					<img src="http://localhost/spincity/wp-content/uploads/2017/10/auto_mali_gore.png" alt="">
+					<img src="wp-content/uploads/2017/10/auto_mali_gore.png" alt="">
 					
 				</div>
 				<div class="col-md-5">
@@ -60,9 +60,79 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		*****************************************/ -->
 <!-- https://codepen.io/gil--/pen/bNxZWg -->
-	<div class="fluid-container">
+
+ <!-- https://codepen.io/icutpeople/pen/whueK --> 
+	<div id="tri_videa" class="fluid-container">
 		<div class="row">
-			<div id="videosList Aligner">           
+			<div class="col-md-4">
+
+				<div class="video-container video">
+				   <video>
+					     <source src="wp-content/uploads/2017/11/SpinCity_1.mp4" type="video/mp4">
+					     Your browser does not support the video tag.
+				   </video>
+
+			     <div class="overlay-desc">
+					
+			        <h3 class="text-white"><i class="fa fa-play text-center" aria-hidden="true"></i><br> LOCIRAJ VOZILO</h3>
+			     </div>
+				</div>
+				
+				<!-- <div id="videosList Aligner">            
+				<div class="video">
+
+
+				    <video class="thevideo" loop preload="none">
+				      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
+				      <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
+				    Your browser does not support the video tag.
+				    </video>
+
+				   	
+				  </div>
+					<p class="overlay-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore</p> 
+				</div> -->
+			</div>	
+			
+
+			<div class="col-md-4">
+
+				<div class="video-container video">
+				   <video>
+					     <source src="wp-content/uploads/2017/11/Video Spin City.mp4" type="video/mp4">
+					     Your browser does not support the video tag.
+				   </video>
+			     <div class="overlay-desc">
+			        <h3 class="text-white"><i class="fa fa-play text-center" aria-hidden="true"></i><br>VOZI</h3>
+			     </div>
+				</div>
+				<!--  <div id="videosList Aligner">           
+				<div class="video">
+				    <video class="thevideo" loop preload="none">
+				      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
+				      <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
+				    Your browser does not support the video tag.
+				    </video>
+				    <p class="overlay-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore</p> 
+				  </div>
+				
+				</div>  -->
+			
+			</div>
+
+			<div class="col-md-4">
+				<div class="video-container video">
+				   <video>
+					     <source src="wp-content/uploads/2017/11/SpinCity_2.mp4" type="video/mp4">
+					     Your browser does not support the video tag.
+				   </video>
+			     <div class="overlay-desc">
+			        <h3 class="text-white"><i class="fa fa-play text-center" aria-hidden="true"></i><br>PARKIRAJ</h3>
+			     </div>
+				</div>
+				<!-- <div id="videosList Aligner">           
 				<div class="video">
 				    <video class="thevideo" loop preload="none">
 				      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
@@ -70,11 +140,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 				    Your browser does not support the video tag.
 				    </video>
 				  </div>
-				  <p>sfsd dfsdf</p>
-				</div>
+				
+				</div> -->
+					
+			</div>
+		
 
 
-				<div id="videosList">           
+			<!-- <div id="videosList">           
 				<div class="video">
 				    <video class="thevideo" loop preload="none">
 				      <source src="https://media.giphy.com/media/s2qXK8wAvkHTO/giphy.mp4" type="video/mp4">
@@ -82,7 +155,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				    Your browser does not support the video tag.
 				    </video>
 				  </div>
-				</div>
+				</div> -->	
 		</div>
 	</div> 
 
@@ -112,7 +185,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-4 col-sm-12 col-xs-12  ml-auto ikone">
 					<div class="col-md-12 text-center">	<img src="wp-content/uploads/2017/10/SpinCity_logo.png" alt=""></div>
 				
-					<ul>
+					<ul class="tabovi"> 
 						<li>
 							<h2 class="tekst_lj_boja">Dostupno 24/7</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum metus non mattis ullamcorper. In et leo massa. Nullam laoreet libero et nibh egestas vulputate. </p>
@@ -149,7 +222,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<!-- Tab panes -->
 						<div class="tab-content">
-						  <div class="tab-pane fade show  active" id="home" role="tabpanel"><img src="http://localhost/spincity/wp-content/uploads/2017/10/auto.png" alt=""></div>
+						  <div class="tab-pane fade show  active" id="home" role="tabpanel"><img src="/spincity/wp-content/uploads/2017/10/auto.png" alt=""></div>
 						  <div class="tab-pane fade" id="profile" role="tabpanel">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -183,7 +256,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<div class="container">
 										<div class="card-group text-center">
 										  <div class="card">
-										    <img class="card-img-top" src="http://localhost/spincity/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
+										    <img class="card-img-top" src="/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
 										    <div class="card-block">
 										      <h4 class="card-title tekst_lj_boja">2,63 kn</h4>
 										      <p class="card-text"><small class="text-muted">minuta</small></p>
@@ -193,7 +266,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										    </div>
 										  </div>
 										  <div class="card">
-										    <img class="card-img-top" src="http://localhost/spincity/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
+										    <img class="card-img-top" src="/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
 										    <div class="card-block">
 										      <h4 class="card-title tekst_lj_boja">125 kn</h4>
 										      <p class="card-text"><small class="text-muted">3 sata</small></p>
@@ -203,7 +276,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										    </div>
 										  </div>
 										  <div class="card">
-										    <img class="card-img-top" src="http://localhost/spincity/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
+										    <img class="card-img-top" src="/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
 										    <div class="card-block">
 										      <h4 class="card-title tekst_lj_boja">349 kn</h4>
 										      <p class="card-text"><small class="text-muted">24 sata</small></p>
@@ -234,91 +307,177 @@ $container = get_theme_mod( 'understrap_container_type' );
 						HOME_REGISTRACIJA
 
 		*****************************************/ -->
-	
-			<div class="col-md-12 content-area" id="registracija">
+	<div class="col-md-12 content-area" id="registracija">
+
 							
+
 							<div class="fluid-contanier">
+
 								<div class="row">
+
 									<div class="col-md-12 text-center"><h2 class="tekst_bj_boja">Registracija</h2></div>
+
 									<div class="col-md-12 text-center p-3"><p class="tekst_bj_boja">Fusce lectus magna, lacinia a mollis sed, tincidunt sit amet sapien. <br>Aliquam nec pharetra est. Aenean eu tellus id sapien pellentesque pretium.</p>
+
 										</div>
+
 										<!-- karte -->
-									<div class="container">
+
+									<div class="container text-center">
+
 										  <div class="row flex-items-xs-middle flex-items-xs-center">
 
+
+
 										    <!-- Table #1  -->
+
 										    <div class="col-xs-12 col-lg-4">
+
 										      <div class="card text-xs-center">
+
 										        <div class="card-header">
-										          <h3 class="display-2"><span class="currency">$</span>19<span class="period">/month</span></h3>
+
+										          <h3 class="display-2"><span class="currency"></span>9<span class="period">kn</span></h3>
+
 										        </div>
+
 										        <div class="card-block">
+
 										          <h4 class="card-title"> 
+
 										            Basic Plan
+
 										          </h4>
+
 										          <ul class="list-group">
-										            <li class="list-group-item">Ultimate Features</li>
-										            <li class="list-group-item">Responsive Ready</li>
-										            <li class="list-group-item">Visual Composer Included</li>
-										            <li class="list-group-item">24/7 Support System</li>
+
+										            <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i> <strong>0</strong> bonus minuta</li>
+
+										            <li class="list-group-item"><i class="fa fa-id-card-o" aria-hidden="true"></i> članska iskaznica</li>
+
+										            <li class="list-group-item"><i class="fa fa-mobile" aria-hidden="true"></i> 1 aplikacija</li>
+
+										            <li class="list-group-item"><i class="fa fa-car" aria-hidden="true"></i><strong> 30</strong> automobila</li>
+
+										            <li class="list-group-item"><i class="fa fa-product-hunt" aria-hidden="true"></i> besplatni parking</li>
+
 										          </ul>
+
 										          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+
 										        </div>
+
 										      </div>
+
 										    </div>
 
+
+
 										    <!-- Table #1  -->
+
 										    <div class="col-xs-12 col-lg-4">
+
 										      <div class="card text-xs-center">
+
 										        <div class="card-header">
-										          <h3 class="display-2"><span class="currency">$</span>29<span class="period">/month</span></h3>
+
+										          <h3 class="display-2"><span class="currency"></span>149<span class="period">kn</span></h3>
+
 										        </div>
+
 										        <div class="card-block">
+
 										          <h4 class="card-title"> 
+
 										            Regular Plan
+
 										          </h4>
+
 										          <ul class="list-group">
+
 										            <li class="list-group-item">Ultimate Features</li>
+
 										            <li class="list-group-item">Responsive Ready</li>
+
 										            <li class="list-group-item">Visual Composer Included</li>
+
 										            <li class="list-group-item">24/7 Support System</li>
+
 										          </ul>
+
 										          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+
 										        </div>
+
 										      </div>
+
 										    </div>
 
+
+
 										    <!-- Table #1  -->
+
 										    <div class="col-xs-12 col-lg-4">
+
 										      <div class="card text-xs-center">
+
 										        <div class="card-header">
-										          <h3 class="display-2"><span class="currency">$</span>39<span class="period">/month</span></h3>
+
+										          <h3 class="display-2"><span class="currency"></span>49<span class="period">kn</span></h3>
+
 										        </div>
+
 										        <div class="card-block">
+
 										          <h4 class="card-title"> 
+
 										            Premium Plan
+
 										          </h4>
+
 										          <ul class="list-group">
+
 										            <li class="list-group-item">Ultimate Features</li>
+
 										            <li class="list-group-item">Responsive Ready</li>
+
 										            <li class="list-group-item">Visual Composer Included</li>
+
 										            <li class="list-group-item">24/7 Support System</li>
+
 										          </ul>
+
 										          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+
 										        </div>
+
 										      </div>
+
 										    </div>
+
+
 
 										  </div>
+
 										</div>
 
-									
-										
-								</div><!-- row end -->	
+
 
 									
+
+										
+
+								</div><!-- row end -->	
+
+
+
+									
+
 							</div>	
+
 							
+
+
 
 						</div>
 

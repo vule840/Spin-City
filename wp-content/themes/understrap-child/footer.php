@@ -14,7 +14,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php get_sidebar( 'footerfull' ); ?>
 
 <div class="wrapper" id="wrapper-footer">
-dfdfg
+
 	<div class="<?php echo esc_attr( $container ); ?>">
 
 		<div class="row">
@@ -25,9 +25,9 @@ dfdfg
 
 					<div class="site-info">
 
-							<span>Povjerljivost i kolačići</span>
+							<span style="inline-block;" class="py-3">Povjerljivost i kolačići</span>
 
-							<span><img src="../wp-content/uploads/2017/10/Spin-logo.png" alt="Spin City" /><span class="entry-date"><?php echo get_the_date('Y'); ?></span></span>
+							<span style="float: right;"><img src="wp-content/uploads/2017/10/Spin-logo.png" alt="Spin City" /><span class="entry-date"><?php echo get_the_date('Y'); ?></span></span>
 					</div><!-- .site-info -->
 
 				</footer><!-- #colophon -->
