@@ -15,10 +15,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					HOME_COVER VIDEO
 
-		*****************************************/ -->
-
+		********************************** *******/ -->
+ 
 
 <div class="wrapper" id="full-width-page-wrapper">
+
 		<!-- <div class="cover-container">
 
        
@@ -42,7 +43,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-center">
 				
 				<div class="col-md-4">
-					<img src="wp-content/uploads/2017/10/auto_mali_gore.png" alt="">
+					<img src="wp-content/uploads/2017/10/mali_auto1.png" alt="">
 					
 				</div>
 				<div class="col-md-5">
@@ -66,7 +67,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row">
 			<div class="col-md-4">
 
-				<div class="video-container video">
+				<div class="video-container video v1">
 				   <video>
 					     <source src="wp-content/uploads/2017/11/SpinCity_1.mp4" type="video/mp4">
 					     Your browser does not support the video tag.
@@ -74,8 +75,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			     <div class="overlay-desc">
 					
-			        <h3 class="text-white"><i class="fa fa-play text-center" aria-hidden="true"></i><br> LOCIRAJ VOZILO</h3>
+			        <h3 class="text-white pt-5"><i class="fa fa-play text-center" aria-hidden="true"></i><br> LOCIRAJ VOZILO</h3><br>
+			        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			        tempor incididunt ut labore et dolore magna aliqua. </p>	
 			     </div>
+
 				</div>
 				
 				<!-- <div id="videosList Aligner">            
@@ -98,13 +102,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<div class="col-md-4">
 
-				<div class="video-container video">
+				<div class="video-container video v2">
 				   <video>
 					     <source src="wp-content/uploads/2017/11/Video Spin City.mp4" type="video/mp4">
 					     Your browser does not support the video tag.
 				   </video>
 			     <div class="overlay-desc">
-			        <h3 class="text-white"><i class="fa fa-play text-center" aria-hidden="true"></i><br>VOZI</h3>
+			        <h3 class="text-white  pt-5"><i class="fa fa-play text-center" aria-hidden="true"></i><br>VOZI</h3>
+			        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			        tempor incididunt ut labore et dolore magna aliqua. </p>
 			     </div>
 				</div>
 				<!--  <div id="videosList Aligner">           
@@ -123,13 +129,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 
 			<div class="col-md-4">
-				<div class="video-container video">
+				<div class="video-container video v3">
 				   <video>
 					     <source src="wp-content/uploads/2017/11/SpinCity_2.mp4" type="video/mp4">
 					     Your browser does not support the video tag.
 				   </video>
 			     <div class="overlay-desc">
-			        <h3 class="text-white"><i class="fa fa-play text-center" aria-hidden="true"></i><br>PARKIRAJ</h3>
+			        <h3 class="text-white  pt-5"><i class="fa fa-play text-center" aria-hidden="true"></i><br>PARKIRAJ</h3>
+			        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			        tempor incididunt ut labore et dolore magna aliqua. </p>
 			     </div>
 				</div>
 				<!-- <div id="videosList Aligner">           
@@ -169,8 +177,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="row">
 			<div class="col-md-12 text-center p-5">
-				<h2 class="pb-3">Zašto koristiti Spin City?</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum metus non mattis ullamcorper. In et leo massa. Nullam laoreet libero et nibh egestas vulputate. </p>
+				<h2 class="pb-3 tekst_lj_boja">Zašto koristiti Spin City?</h2>
+				<p class="tekst_lj_boja">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum metus non mattis ullamcorper.<br> In et leo massa. Nullam laoreet libero et nibh egestas vulputate. </p>
 			</div>
 		</div>
 
@@ -180,9 +188,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		*****************************************/ -->
 
-		<div class="fluid-container py-5" id="tabovi">
+		<div class="fluid-container pt-5" id="tabovi">
 				<div class="row">
-				<div class="col-md-4 col-sm-12 col-xs-12  ml-auto ikone">
+				<div class="col-md-5 col-sm-12 col-xs-12  ml-auto ikone">
 					<div class="col-md-12 text-center">	<img src="wp-content/uploads/2017/10/SpinCity_logo.png" alt=""></div>
 				
 					<ul class="tabovi"> 
@@ -250,37 +258,37 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="fluid-contanier">
 								<div class="row">
 									<div class="col-md-12 text-center"><h2 class="tekst_lj_boja">Misli zeleno - vozi spin city</h2></div>
-									<div class="col-md-12 text-center"><p class="tekst_lj_boja">Fusce lectus magna, lacinia a mollis sed, tincidunt sit amet sapien. Aliquam nec pharetra est. Aenean eu tellus id sapien pellentesque pretium.</p>
+									<div class="col-md-12 text-center"><p class="tekst_lj_boja py-4">Fusce lectus magna, lacinia a mollis sed, tincidunt sit amet sapien. <br> Aliquam nec pharetra est. Aenean eu tellus id sapien pellentesque pretium.</p>
 										</div>
 										<!-- karte -->
 									<div class="container">
 										<div class="card-group text-center">
 										  <div class="card">
-										    <img class="card-img-top" src="/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
+										    <img class="card-img-top" src="wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
 										    <div class="card-block">
 										      <h4 class="card-title tekst_lj_boja">2,63 kn</h4>
 										      <p class="card-text"><small class="text-muted">minuta</small></p>
-										      <p class="card-text">Trebate više minuta? 
+										      <p class="card-text">Trebate više minuta? <br>
 												Pogledajte spin na sat.</p>
 										     <button type="button" class="btn btn-primary">SAZNAJ VIŠE</button>	
 										    </div>
 										  </div>
 										  <div class="card">
-										    <img class="card-img-top" src="/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
+										    <img class="card-img-top" src="wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
 										    <div class="card-block">
 										      <h4 class="card-title tekst_lj_boja">125 kn</h4>
 										      <p class="card-text"><small class="text-muted">3 sata</small></p>
-										      <p class="card-text">Najbolje za dužu vožnju
+										      <p class="card-text">Najbolje za dužu vožnju <br>
 			gradom</p>
 										     <button type="button" class="btn btn-primary">SAZNAJ VIŠE</button>
 										    </div>
 										  </div>
 										  <div class="card">
-										    <img class="card-img-top" src="/wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
+										    <img class="card-img-top" src="wp-content/uploads/2017/10/mali_auto1.png" alt="Card image cap">
 										    <div class="card-block">
 										      <h4 class="card-title tekst_lj_boja">349 kn</h4>
 										      <p class="card-text"><small class="text-muted">24 sata</small></p>
-										      <p class="card-text">Tvoj auto, cijeli dan</p>
+										      <p class="card-text">Tvoj auto, cijeli dan</p> <br>
 										      <button type="button" class="btn btn-primary">SAZNAJ VIŠE</button>
 										    </div>
 										  </div>
@@ -289,7 +297,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 									</div>
 									<!-- ispod karata tx -->
-									<div class="col-md-12 text-center"><p>Fusce lectus magna, lacinia a mollis sed, tincidunt sit amet sapien. Aliquam nec pharetra est. Aenean eu tellus id sapien pellentesque pretium.
+									<div class="col-md-12 text-center"><p class="py-5 tekst_lj_boja">Fusce lectus magna, lacinia a mollis sed, tincidunt sit amet sapien. Aliquam nec pharetra est. <br> Aenean eu tellus id sapien pellentesque pretium.
 						</p>
 										</div>	
 			
@@ -317,7 +325,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 									<div class="col-md-12 text-center"><h2 class="tekst_bj_boja">Registracija</h2></div>
 
-									<div class="col-md-12 text-center p-3"><p class="tekst_bj_boja">Fusce lectus magna, lacinia a mollis sed, tincidunt sit amet sapien. <br>Aliquam nec pharetra est. Aenean eu tellus id sapien pellentesque pretium.</p>
+									<div class="col-md-12 text-center "><p class="tekst_bj_boja py-4">Fusce lectus magna, lacinia a mollis sed, tincidunt sit amet sapien. <br>Aliquam nec pharetra est. Aenean eu tellus id sapien pellentesque pretium.</p>
 
 										</div>
 
@@ -337,7 +345,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 										        <div class="card-header">
 
-										          <h3 class="display-2"><span class="currency"></span>9<span class="period">kn</span></h3>
+										          <h3 class="display-2 prvi"><span class="currency"></span>9<span class="period">kn</span></h3>
 
 										        </div>
 
@@ -345,13 +353,62 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 										          <h4 class="card-title"> 
 
-										            Basic Plan
+										            <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i>0 bonus minuta
 
 										          </h4>
 
 										          <ul class="list-group">
 
-										            <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i> <strong>0</strong> bonus minuta</li>
+										          <!--  <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i> <strong>0</strong> bonus minuta</li> --> 
+
+										            <li class="list-group-item"><i class="fa fa-id-card-o" aria-hidden="true"></i> članska iskaznica</li>
+
+										            <li class="list-group-item"><i class="fa fa-mobile" aria-hidden="true"></i> 1 aplikacija</li>
+
+										            <li class="list-group-item"><i class="fa fa-car" aria-hidden="true"></i><strong> 30</strong> automobila</li>
+
+										            <li class="list-group-item"><i class="fa fa-product-hunt" aria-hidden="true"></i> besplatni parking</li>
+										             
+										            <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i>dostupnost 24/7</li>
+
+ 													<li class="list-group-item"><i class="fa fa-leaf" aria-hidden="true"></i> ECO-friendly</li>
+
+
+										          </ul>
+
+										          <a href="#" class="btn btn-primary my-5">Registriraj se</a>
+
+										        </div>
+
+										      </div>
+
+										    </div>
+
+
+
+										    <!-- Table #1  -->
+
+										    <div class="col-xs-12 col-lg-4">
+
+										      <div class="card text-xs-center">
+
+										        <div class="card-header">
+
+										          <h3 class="display-2 drugi"><span class="currency"></span>149<span class="period">kn</span></h3>
+
+										        </div>
+
+										        <div class="card-block">
+
+										          <h4 class="card-title"> 
+
+										            <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i>100 bonus minuta
+
+										          </h4>
+
+										           <ul class="list-group">
+
+										           
 
 										            <li class="list-group-item"><i class="fa fa-id-card-o" aria-hidden="true"></i> članska iskaznica</li>
 
@@ -361,9 +418,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 										            <li class="list-group-item"><i class="fa fa-product-hunt" aria-hidden="true"></i> besplatni parking</li>
 
-										          </ul>
+										            <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i>dostupnost 24/7</li>
 
-										          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+ 													<li class="list-group-item"><i class="fa fa-leaf" aria-hidden="true"></i> ECO-friendly</li>
+
+										          </ul>
+													<img class="pt-3" src="wp-content/uploads/2017/11/mastercard_50min.jpg" alt="">
+										          <a href="#" class="btn btn-primary my-5">Registriraj se</a>
 
 										        </div>
 
@@ -381,7 +442,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 										        <div class="card-header">
 
-										          <h3 class="display-2"><span class="currency"></span>149<span class="period">kn</span></h3>
+										          <h3 class="display-2 treci"><span class="currency"></span>49<span class="period">kn</span>
+										          </h3>
 
 										        </div>
 
@@ -389,65 +451,29 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 										          <h4 class="card-title"> 
 
-										            Regular Plan
+										            <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i>20 bonus minuta
 
 										          </h4>
 
-										          <ul class="list-group">
+										           <ul class="list-group">
 
-										            <li class="list-group-item">Ultimate Features</li>
+										          
 
-										            <li class="list-group-item">Responsive Ready</li>
+										            <li class="list-group-item"><i class="fa fa-id-card-o" aria-hidden="true"></i> članska iskaznica</li>
 
-										            <li class="list-group-item">Visual Composer Included</li>
+										            <li class="list-group-item"><i class="fa fa-mobile" aria-hidden="true"></i> 1 aplikacija</li>
 
-										            <li class="list-group-item">24/7 Support System</li>
+										            <li class="list-group-item"><i class="fa fa-car" aria-hidden="true"></i><strong> 30</strong> automobila</li>
 
-										          </ul>
+										            <li class="list-group-item"><i class="fa fa-product-hunt" aria-hidden="true"></i> besplatni parking</li>
 
-										          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+										            <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i>dostupnost 24/7</li>
 
-										        </div>
-
-										      </div>
-
-										    </div>
-
-
-
-										    <!-- Table #1  -->
-
-										    <div class="col-xs-12 col-lg-4">
-
-										      <div class="card text-xs-center">
-
-										        <div class="card-header">
-
-										          <h3 class="display-2"><span class="currency"></span>49<span class="period">kn</span></h3>
-
-										        </div>
-
-										        <div class="card-block">
-
-										          <h4 class="card-title"> 
-
-										            Premium Plan
-
-										          </h4>
-
-										          <ul class="list-group">
-
-										            <li class="list-group-item">Ultimate Features</li>
-
-										            <li class="list-group-item">Responsive Ready</li>
-
-										            <li class="list-group-item">Visual Composer Included</li>
-
-										            <li class="list-group-item">24/7 Support System</li>
+ 													<li class="list-group-item"><i class="fa fa-leaf" aria-hidden="true"></i> ECO-friendly</li>
 
 										          </ul>
-
-										          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+													<img class="pt-3" src="wp-content/uploads/2017/11/mastercard_50min.jpg" alt="">
+										          <a href="#" class="btn btn-primary my-5">Registriraj se</a>
 
 										        </div>
 
@@ -491,14 +517,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 							<div class="fluid-contanier" id="CTA">
 								<div class="row">
-									<div class="col-md-12 text-center"><h2 class="text-white">Samo uskoči i vozi! Parking je besplatan.</h2></div>
+									<div class="container">
+										<div class="col-md-12 text-center py-3"><h2 class="text-white">Samo uskoči i vozi! Parking je besplatan.</h2></div>
 								
 							
 									<!-- ispod karata tx -->
-									<div class="col-md-12 text-center"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum metus non mattis ullamcorper. In et leo massa. Nullam laoreet libero et nibh egestas vulputate. 
+									<div class="col-md-12 text-center text-white"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Donec bibendum metus non mattis ullamcorper. In et leo massa. Nullam laoreet libero et nibh egestas vulputate. 
 										</p>
-									<button type="button" class="btn btn-primary">SAZNAJ VIŠE</button>	
+									<button type="button" class="btn btn-primary my-3">REGISTRIRAJ SE</button>	
 									</div>	
+									</div>
+									
 									
 										
 								</div><!-- row end -->	

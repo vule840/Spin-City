@@ -25,10 +25,11 @@ div #misli {
 
     .card{
     	margin: 1em;
-    	padding: 1em;
+    	padding: 1em 1em 3em 1em;
     	.card-title {
 			font-size: 2.5em;
-			font-weight: 600;	    
+			font-weight: 600;
+
 		}
 		    border-radius: 10px;
     }
@@ -49,6 +50,19 @@ background: -webkit-linear-gradient(-60deg, rgba(123,200,177,1) 0%,rgba(83,188,1
 background: linear-gradient(170deg, rgba(123,200,177,1) 0%,rgba(83,188,157,1) 26%,rgba(83,188,157,1) 26%,rgba(123,200,177,1) 26%,rgba(123,200,177,1) 26%,rgba(123,200,177,1) 67%,rgba(123,200,177,1) 67%,rgba(123,200,177,1) 67%,rgba(55,180,143,1) 67%,rgba(48,178,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bc8b1', endColorstr='#30b28b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	// Tables
+		// razliciti krugovi prce table	
+		.card-header{
+			.prvi{
+			padding: 0.1em 0.4em;
+		 }
+		 .drugi{
+			padding: 0.3em 0.2em;
+		 }
+		  .treci{
+			padding: 0.2em 0.2em;
+		 }
+		}
+		
 		.col-lg-4{
 			padding:0;
 		}
@@ -83,7 +97,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bc8b1', end
 		    }
 		    
 		  }
-		  & .card-header {
+		   .card-header {
 		    
 		    padding-left: 2rem;
 		    border-bottom: 0px;
@@ -94,17 +108,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bc8b1', end
     background: linear-gradient(to bottom, #9249ce 0, #6c21a6 100%);
    
 		  }
-		  & .card-title {
+		   .card-title {
 		    margin-bottom: 1rem;
+			.list-group-item{
+				border: 0;
+			}
 		  }
-		  & .card-block {
+		   .card-block {
 		    padding-top: 0;
+		    padding:3em 3em 0em 3em;
 		  }
-		  & .list-group-item {
+		  .list-group-item {
 		    border: 0px;
-		    padding: .25rem;
+		    padding: .7rem;
 		    color: $main-font-color;
 		    font-weight: $main-font-weight;
+		    border-top: 1px solid #ccc; 
+		    border-bottom: 1px solid #ccc; 
+		    .fa{
+		    	padding-right:0.7em;
+		    	font-size: 1.3em;
+		    }
 		  }
 		}
 
@@ -120,17 +144,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bc8b1', end
 			    color: $zlatna;
 			    padding: 0.1em 0.2em;
 			    font-weight: 500;
-		  & .currency {
+		   .currency {
 		    font-size: 2.75rem;
 		    position: relative;
 		    font-weight: $main-font-weight + 100;
 		    top: -45px;
 		    letter-spacing: 0px;
 		  }
-		  & .period {
+		  .period {
 		    font-size: 1rem;
 		    color: lighten($main-font-color, 20%);
 		    letter-spacing: 0px;
+		    left: -20px;
+    		top: 24px;
+    		font-size: 1.6rem;
+    		position:relative;
 		  }
 		}
 
@@ -144,7 +172,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bc8b1', end
 		  padding: .75rem 1.25rem;
 		  letter-spacing: 1px;
 		}
-
+		 .btn-primary{
+	    	background: #30b28b;
+	    	color: #FFF;
+	    	&:hover {
+		    cursor: pointer;
+		    background-color: $primary-color;
+		  }
+	    }
 		.btn-gradient { 
 		  background-color: #f2f2f2;
 		  transition: background .3s ease-in-out;
@@ -169,6 +204,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bc8b1', end
 	padding: 0.7em 1.7em;
 	font-family: $naslovi-font;
 	font-weight: bold;
+	&:hover {
+		    color: white;
+		    background-color: $primary-color;
+		  }
 }
 
 /*** CARUSEL  ***/
@@ -207,15 +246,58 @@ background: linear-gradient(to bottom, rgba(148,73,208,1) 0%,rgba(114,57,160,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9449d0', endColorstr='#7239a0',GradientType=0 ); /* IE6-9 */
 }
 /*TABOVI IKONE*/
+
+
 #tabovi .ikone ul li:before {
     
     padding-top: 8px;
-  
 }
 #tabovi .ikone ul li:nth-of-type(1) {
-    list-style-image: url(/spincity/wp-content/uploads/2017/10/1.png);  
+    background-image: url(/spincity/wp-content/uploads/2017/10/1.png);
+    background-repeat: no-repeat;
+    /* background-position: -41px 10px; */
+    /* line-height: 31px; */
+    list-style-type: none;
+    padding-left: 80px;
+       padding-bottom: 0.8em;
+    /* margin-left: 10px; */
+    /* z-index: 15; */
 }
 #tabovi .ikone ul li:nth-of-type(2) {
+    background-image: url(/spincity/wp-content/uploads/2017/10/2.png);
+    background-repeat: no-repeat;
+    /* background-position: -41px 10px; */
+    /* line-height: 31px; */
+    list-style-type: none;
+    padding-left: 80px;
+       padding-bottom: 0.8em;
+    /* margin-left: 10px; */
+    /* z-index: 15; */
+}
+#tabovi .ikone ul li:nth-of-type(3) {
+    background-image: url(/spincity/wp-content/uploads/2017/10/3.png);
+    background-repeat: no-repeat;
+    /* background-position: -41px 10px; */
+    /* line-height: 31px; */
+    list-style-type: none;
+    padding-left: 80px;
+      padding-bottom: 0.8em;
+    /* margin-left: 10px; */
+    /* z-index: 15; */
+}
+#tabovi .ikone ul li:nth-of-type(4) {
+    background-image: url(/spincity/wp-content/uploads/2017/10/4.png);
+    background-repeat: no-repeat;
+    /* background-position: -41px 10px; */
+    /* line-height: 31px; */
+    list-style-type: none;
+    padding-left: 80px;
+       padding-bottom: 0.8em;
+    /* margin-left: 10px; */
+    /* z-index: 15; */
+}
+
+/*#tabovi .ikone ul li:nth-of-type(2) {
     list-style-image: url(/spincity/wp-content/uploads/2017/10/2.png);  
 }
 #tabovi .ikone ul li:nth-of-type(3) {
@@ -223,8 +305,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9449d0', end
 }
 #tabovi .ikone ul li:nth-of-type(4) {
     list-style-image: url(/spincity/wp-content/uploads/2017/10/4.png);  
-}
+}*/
 
+#tabovi {
+	.nav-tabs .nav-link.active{
+		color: #fff;
+   		 background-color: #7A44A9;
+   		/* border-color: #ddd #ddd #fff;*/
+   		border-bottom:0;
+	}
+	.nav-tabs .nav-link:focus{
+		border:0;
+	}
+	.nav-tabs .nav-link{
+		border:0;
+	}
+}
 
 .home .tab-content>.active {
     display: block;
@@ -246,11 +342,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9449d0', end
 	}
 }
 
-.video {
-  background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
+.v1 {
+  background-image: url('http://localhost/spincity/wp-content/uploads/2017/11/lociraj_screen.jpg');
  /* height: 330px;
   width: 600px;*/
-  filter: brightness(50%);
+  /*filter: brightness(50%);*/
+  /*position: relative;*/ 
+ }
+ .v2 {
+  background-image: url('http://localhost/spincity/wp-content/uploads/2017/11/vozi_screen.jpg');
+ /* height: 330px;
+  width: 600px;*/
+  /*filter: brightness(50%);*/
+  /*position: relative;*/ 
+ }
+ .v3 {
+  background-image: url('http://localhost/spincity/wp-content/uploads/2017/11/lociraj_screen.jpg');
+ /* height: 330px;
+  width: 600px;*/
+  /*filter: brightness(50%);*/
   /*position: relative;*/ 
  }
   
@@ -320,8 +430,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9449d0', end
 	background: #9349cf;
 	.nav-link{
 		color: #fff;
-		text-transform: uppercase;
+		text-transform: normal;
+		letter-spacing: 1px;
 		padding:1.5rem;
+		font-size: 1.2em;
+		font-weight: 500;
 		.fa{
 			padding: 0.5em;
 			font-size: 2em;
@@ -341,8 +454,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9449d0', end
 
 		*****************************************/ 
 //koristiti
+#usluga_koristiti {
+	
+	.ljubicasto{
+		background: #9449d0;
+color:white;
+	}
+}
+
 #usluga_koristiti .card-group .card{
 	border:none;
+
 }
 #usluga_koristiti .card-group .card:nth-of-type(1),#usluga_koristiti .card-group .card:nth-of-type(3){
 background: #9449d0;
@@ -363,9 +485,43 @@ color:white;
 		background: -webkit-linear-gradient(-45deg, rgba(142,70,199,1) 0%,rgba(120,60,168,1) 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(135deg, rgba(142,70,199,1) 0%,rgba(120,60,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e46c7', endColorstr='#783ca8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */	
+	#pills-tabContent{
+		background: white;
+		#pills-home, #pills-profile, #pills-contact{
+			.card{
+				border:0;
+				background:transparent;
+				
+			}
+			.sati{
+					position: absolute;
+    				left: 215px;
+    				    top: -10px;
+				}
+			.card-body{
+				background: #9449d0;
+				color:white;
+				border-radius:10px;
+			}
 
+
+		}
+	}
+	#pills-tab{
+		background:transparent;
+		
+	}
+	.nav-pills .nav-link.active{
+		background-color: white;
+		color: #7E46AF;
+		border-radius: 0rem;
+	}
 }
-#usluga_tabovi{
+#usluga_paketi #pills-tab .nav-link{
+	text-transform: normal;
+}
+
+/*#usluga_tabovi{
 	.nav-center {  
   text-align: center;
   ul.nav {
@@ -378,7 +534,7 @@ color:white;
     }
   }
 }
-}
+}*/
 
 /************************************
 
@@ -387,8 +543,16 @@ color:white;
 		*****************************************/ 
 
 #CTA{
-	background:#3e4149;
+	    background: url(/spincity/wp-content/uploads/2017/10/Spincity_pomoc_bg.jpg);
 	    padding: 3em 0;
+	    .btn-primary{
+	    	background: #30b28b;
+	    	color: #FFF;
+	    	&:hover {
+		    cursor: pointer;
+		    background-color: $primary-color;
+		  }
+	    }
 }
 
 ////////////////////////////COVER_PAGE*/
@@ -458,7 +622,7 @@ color:white;
     transform: translateX(-50%) translateY(-40%);
     background: url(polina.jpg) no-repeat;
     background-size: cover;
-    filter: brightness(70%);
+   /* filter: brightness(70%);*/
 }
 .container h1 {
   color: white;
@@ -557,18 +721,26 @@ ul.footer{
 
 #main-container {
   width: 100%;
-  overflow: auto;
+      position: relative;
+  /*overflow: auto;*/
  /* height: 100px;*/
+ svg{
+ 	position: relative;
+ }
 }
 
 #test-box {
-  background: red;
+ /* background: red;
   color: #ffffff;
   padding: 15px;
-  font-size: 18px;
+  font-size: 18px;*/
   position: absolute;
-  left: 700px;
+  right: 0px;
   top: 10;
+  img{
+  	z-index: 100;
+    position: relative;
+  }
 }
 
 //////////
@@ -596,15 +768,16 @@ section.red {
   height: auto;
   vertical-align: middle;
   width: 100%;
-  filter: brightness(50%);
+  /*filter: brightness(50%);*/
 }
 .overlay-desc {
-  background: rgba(0,0,0,0);
+     background: rgba(0,0,0,0.4);
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   justify-content: center;
+  text-align: center;
   h1 {
   color: white;
   font-family: 'Nobile', sans-serif;
@@ -619,4 +792,35 @@ section.red {
 	.col-md-4{
 		padding:0;
 	}
+}
+
+//******* preloder
+
+.loader{
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*
+  Set the color of the icon
+*/
+svg path,
+svg rect{
+  fill: #FF6700;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-image: none;
+    cursor: pointer;
 }

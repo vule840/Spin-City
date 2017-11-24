@@ -31,20 +31,41 @@ var animated = false; //added variable to control the animation
     var wS = $(this).scrollTop();
     if (animated && wS <= 10) {
       $("#test-box").animate({
-        'left': 700
-      }, 800);
+        'right': 0
+      }, 1200);
       animated = false; //animation ended
     }
     if (!animated && wS > 11) {
       $("#test-box").animate({
-        'left': $('#main-container').width() - 50
-      }, 800);
+        'right': $('#main-container').width() - 0
+      }, 1200);
       animated = true; //it was animated
     }
   });
 
 
 
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction()
+    }
+    ;
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        // For Chrome, Safari and Opera 
+        document.documentElement.scrollTop = 0;
+        // For IE and Firefox
+    }
 
 
 		

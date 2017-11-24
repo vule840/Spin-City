@@ -113,10 +113,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						</div><!-- #primary -->
 
-					</div><!-- .row end -->
 
-					<div class="card-group">
-						  <div class="card p-5 col-lg-4 col-md-12 col-xs-4">
+					  <div class="ljubicasto p-3 col-lg-3 col-md-6 col-xs-4 text-center">
 						    <img class="lociraj1 mx-auto my-3" src="../wp-content/uploads/2017/10/ikona_lociraj.png" alt="Card image cap">
 						    <div class="card-body">
 						      <h2 class="card-title text-center">LOCIRAJ VOZILO</h2>
@@ -129,7 +127,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						     
 						    </div>
 						  </div>
-						  <div class="card p-5 col-lg-4 col-md-12 col-xs-4">
+						  <div class=" p-3 col-lg-3 col-md-6 col-xs-12 text-center">
 						    <img class="vozi2 mx-auto my-3" src="../wp-content/uploads/2017/10/2_ikona.png" alt="Card image cap">
 						    <div class="card-body">
 						      <h2 class="card-title text-center">VOZI OD TOČKE A DO TOČKE B</h2>
@@ -142,7 +140,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						 
 						    </div>
 						  </div>
-						  <div class="card p-5 col-lg-4 col-md-12 col-xs-12">
+						  <div class="ljubicasto p-3 col-lg-3 col-md-6 col-xs-12 text-center">
 						    <img class="napravi3 mx-auto my-3" src="../wp-content/uploads/2017/11/napravi_stanku_ikona.png" alt="Card image cap">
 
 						    <div class="card-body">
@@ -156,7 +154,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						    
 						    </div>
 						  </div>
-						  <div class="card p-5 col-lg-4 col-md-12 col-xs-12">
+						  <div class=" p-3 col-lg-3 col-md-6 col-xs-12 text-center">
 						    <img class="parkiraj4 mx-auto my-3" src="../wp-content/uploads/2017/11/besplatno_parkiraj_ikona.png" alt="Card image cap">
 						    <div class="card-body">
 						      <h2 class="card-title text-center">BESPLATNO PARKIRAJ</h2>
@@ -169,7 +167,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 						      
 						    </div>
 						  </div>
-						</div>
+
+
+
+					</div><!-- .row end -->
+
+				
+						
+						
 	</div><!-- Container end -->
 
 		<!-- ************************
@@ -236,44 +241,251 @@ $container = get_theme_mod( 'understrap_container_type' );
 			USLUGA_PAKETI
 
 	*************************** -->
-	<div class="fluid-conteiner text-center p-5 tekst_bj_boja" id="usluga_paketi">
+	<div class="fluid-conteiner text-center pt-5 tekst_bj_boja" id="usluga_paketi">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="p-2">Paketi</h2>
-			<p>Donec congue sem felis, sit amet blandit enim efficitur in. Phasellus nec molestie eros.<br> Maecenas fringilla eu justo eu aliquam. Sed condimentum risus a libero finibus, et consequat tortor bibendum.</p>
+				<h2 class="py-2">Paketi</h2>
+			<p class="py-4">Donec congue sem felis, sit amet blandit enim efficitur in. Phasellus nec molestie eros.<br> Maecenas fringilla eu justo eu aliquam. Sed condimentum risus a libero finibus, et consequat tortor bibendum.</p>
 
 			</div>
 			
-		</div>
-	</div>
-<!-- ************************
+			<!-- ************************
 			
 			USLUGA_TABOVI
 
 	*************************** -->
-	<div class="fluid-conteiner text-center p-5" id="usluga_tabovi">
+
+			<div class="col-md-12">
+				<ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+						  <li class="nav-item">
+						    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Spin na sat</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Mjesečna pretplata</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Prepaid paketi</a>
+						  </li>
+						</ul>
+						<div class="tab-content py-5" id="pills-tabContent">
+							
+							<div class="tab-pane container fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									
+								
+
+								<!-- 	<div class="row tekst_lj_boja text-left">
+										<div class="col-md-4">
+												<h4 class="">Spin na sat: 3</h4>
+												      <p class="card-text">uključuje 75 km</p>
+												      <img src="http://localhost/spincity/wp-content/uploads/2017/11/spin_3.png" alt="">
+											</div>
+
+											
+											<div class="col-md-4">
+												<h4 class="">Spin na sat: 3</h4>
+												      <p class="card-text">uključuje 75 km</p>
+												      <img src="http://localhost/spincity/wp-content/uploads/2017/11/spin_3.png" alt="">
+											</div>
+
+											<div class="col-md-4">
+												<h4 class="">Spin na sat: 3</h4>
+												      <p class="card-text">uključuje 75 km</p>
+												      <img src="http://localhost/spincity/wp-content/uploads/2017/11/spin_3.png" alt="">
+											</div>
+
+									</div> 
+										 -->
+							
+									
+
+										 <div class="card-deck">
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 3</h4>
+										      <p class="card-text">uključuje 75 km</p>
+										      
+										    </div>
+										    <img class="sati" src="http://localhost/spincity/wp-content/uploads/2017/11/spin_3.png" alt="">
+										    
+										  </div>
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 8</h4>
+										      <p class="card-text">uključuje 150 km</p>
+										      
+										    </div>
+										    <img class="sati " src="http://localhost/spincity/wp-content/uploads/2017/11/spin_8.png" alt="">
+										  </div>
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 24</h4>
+										      <p class="card-text">uključuje 200 km</p>
+										      
+										    </div>
+										    <img class="sati " src="http://localhost/spincity/wp-content/uploads/2017/11/spin_24.png" alt="">
+										  </div>
+										</div>
+
+										
+								  </div>
+									  <div role="tabpanel" class="tab-pane container" id="pills-profile">
+											<div class="card-deck">
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 3</h4>
+										      <p class="card-text">uključuje 75 km</p>
+										      
+										    </div>
+										    <img class="sati" src="http://localhost/spincity/wp-content/uploads/2017/11/spin_3.png" alt="">
+										    
+										  </div>
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 8</h4>
+										      <p class="card-text">uključuje 150 km</p>
+										      
+										    </div>
+										    <img class="sati " src="http://localhost/spincity/wp-content/uploads/2017/11/spin_8.png" alt="">
+										  </div>
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 24</h4>
+										      <p class="card-text">uključuje 200 km</p>
+										      
+										    </div>
+										    <img class="sati " src="http://localhost/spincity/wp-content/uploads/2017/11/spin_24.png" alt="">
+										  </div>
+										</div>
+
+									  </div>
+								    <div role="tabpanel" class="tab-pane container" id="pills-contact">
+										<div class="card-deck">
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 3</h4>
+										      <p class="card-text">uključuje 75 km</p>
+										      
+										    </div>
+										    <img class="sati" src="http://localhost/spincity/wp-content/uploads/2017/11/spin_3.png" alt="">
+										    
+										  </div>
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 8</h4>
+										      <p class="card-text">uključuje 150 km</p>
+										      
+										    </div>
+										    <img class="sati " src="http://localhost/spincity/wp-content/uploads/2017/11/spin_8.png" alt="">
+										  </div>
+										  <div class="card p-2 text-left">
+										    
+										    <div class="card-body">
+										      <h4 class="card-title">Spin na sat: 24</h4>
+										      <p class="card-text">uključuje 200 km</p>
+										      
+										    </div>
+										    <img class="sati " src="http://localhost/spincity/wp-content/uploads/2017/11/spin_24.png" alt="">
+										  </div>
+										</div>
+
+
+								    </div>
+								    
+															
+							</div>
+			</div>
+			
+
+		</div>
+	</div>
+
+<!-- ************************
+			
+			USLUGA_TABOVI_tx_ispod
+
+	*************************** -->
+<div class="container">
+	<div class="row py-5">
+			<div class="col-md-12 text-center">
+				<p>Ovi paketi se aktiviraju putem aplikacije prije same vožnje te se naplacuju nakon završenog korištenja vozila. Ukljucuju odreden broj kilometara (3 h – 75 km, 8h – 150km, 24h – 200 km), te se nakon potrošene kilometraže naplacuju dodatni kilometri i/ili u slucaju dužeg korištenja najma od vremenskog trajanja paketa obracunavaju dodatne minute. Prilikom trajanja Spin na sat paketa (3 h, 8 h ili 24 h ) vozilo zakljucavaš kljucem, a tek kad zaista želiš završiti svoje putovanje i završiti s korištenjem paketa Spin na sat klikni opciju „završi putovanje“ i zakljucaj vozilo putem aplikacije ili Spin City kartice.</p>
+			</div>
+	</div>
+</div>
+
+<!-- /************************************
+
+						USLUGA_CTA
+
+		*****************************************/ -->
+	
+							
+							<div class="fluid-contanier" id="CTA">
+								<div class="row">
+									<div class="container">
+										<div class="col-md-12 text-center py-3"><h2 class="text-white">Samo uskoči i vozi! Parking je besplatan.</h2></div>
+								
+							
+									<!-- ispod karata tx -->
+									<div class="col-md-12 text-center text-white"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Donec bibendum metus non mattis ullamcorper. In et leo massa. Nullam laoreet libero et nibh egestas vulputate. 
+										</p>
+									<button type="button" class="btn btn-primary my-3">REGISTRIRAJ SE</button>	
+									</div>	
+									</div>
+									
+									
+										
+								</div><!-- row end -->	
+
+									
+							</div>	
+							
+	<!-- <div class="fluid-conteiner text-center" id="usluga_tabovi">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="nav-center">
-					  <ul class="nav nav-tabs">
-					    <li role="presentation" class="active"><a href="#">Home</a></li>
-					    <li role="presentation"><a href="#">Profile</a></li>
-					    <li role="presentation"><a href="#">Messages</a></li>
-					  </ul>
-					</div>
-					<br>
-					<h1 class="text-center">Pills</h1>
-					<div class="nav-center">
-					  <ul class="nav nav-pills">
-					    <li><a href="#">Home</a></li>
-					    <li><a href="#">Profile</a></li>
-					    <li><a href="#">Messages</a></li>
-					  </ul>
-					</div>
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+						  <li class="nav-item">
+						    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+						  </li>
+						</ul>
+						<div class="tab-content" id="pills-tabContent">
+						  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+						  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+						  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+						</div>
 			</div>
 		
 		</div>
-	</div>
+	</div> -->
+	
 
 </div><!-- Wrapper end -->
 

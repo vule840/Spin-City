@@ -29,6 +29,8 @@ $container = get_theme_mod( 'understrap_container_type' );
  
 	<!-- ******************* The Navbar Area ******************* -->
 	<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
+		
+		<button onclick="topFunction()" class="btn-primary btn" id="myBtn" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
 		'understrap' ); ?></a>
@@ -131,13 +133,31 @@ $container = get_theme_mod( 'understrap_container_type' );
 							            <!-- <p class="scroll-auto"> </p> -->
 							            	
 				         </div>
-
+						 	
 				         <div class="container">
-				         	<img style="position: relative;" src="wp-content/uploads/2017/10/auto_mali_gore.png" alt="">
-				         	<div id="main-container">
-								 <div id="test-box">test</div> ....................................................	 
+				         	
+				         	
+								<div id="main-container">
+										
+										<img style="position: relative;" src="wp-content/uploads/2017/10/mali_auto1.png" alt="">
+
+
+										<div id="test-box"><img src="http://localhost/spincity/wp-content/uploads/2017/11/auto_animacija.png"></div> 
+
+										<?xml version="1.0" encoding="utf-8"?>
+										<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="128 361.3 745 29.7" style="enable-background:new 128 361.3 745 29.7;" xml:space="preserve">
+										<style type="text/css">
+											
+												.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0,6;}
+										</style>
+										<line id="XMLID_27_" class="st0" x1="-153.5" y1="387" x2="1130.5" y2="387"/>
+										</svg>
+																													 	 
 								</div>	
-        
+      
+
 				         </div>
 				
 					</section>
@@ -234,6 +254,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
     </div>
  <?php endif ?>
+
+
+
 
 
 </div><!-- .wrapper-navbar end -->
