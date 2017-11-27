@@ -21,16 +21,47 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
+	<!-- SCROLLMAGIX -->
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TimelineMax.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script> -->
+	
 </head>
 
 <body <?php body_class(); ?>>
+
+<!-- BUTTON TO TOP -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+         document.getElementsByClassName('site-wrapper').classList.add(fixed-top);
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+
+</script>
+
 
 <div class="hfeed site" id="page">
  
 	<!-- ******************* The Navbar Area ******************* -->
 	<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
 		
-		<button onclick="topFunction()" class="btn-primary btn" id="myBtn" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+		<button  onclick="topFunction()" class="btn-primary btn" id="myBtn" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
 		'understrap' ); ?></a>
@@ -128,7 +159,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="inner cover">
 
 									<h1 class="cover-heading"><?php the_title();?></h1>
-							            <p class="lead">SAZNAJ VIŠE  <i class="fa fa-play fa-2x text-center" aria-hidden="true"></i> </p>
+							            <p class="lead">SAZNAJ VIŠE  <!-- <i class="fa fa-play fa-2x text-center" aria-hidden="true"></i> --> 
+											<div class="hi-icon-wrap hi-icon-effect-8">
+												<a href="#kako" class="hi-icon hi-icon-chat">Archive</a>
+											</div>
+							            </p>
 
 							            <!-- <p class="scroll-auto"> </p> -->
 							            	
@@ -137,25 +172,32 @@ $container = get_theme_mod( 'understrap_container_type' );
 				         <div class="container">
 				         	
 				         	
-								<div id="main-container">
+				         	<!-- <div id="main-container">
 										
 										<img style="position: relative;" src="wp-content/uploads/2017/10/mali_auto1.png" alt="">
 
-
 										<div id="test-box"><img src="http://localhost/spincity/wp-content/uploads/2017/11/auto_animacija.png"></div> 
-
-										<?xml version="1.0" encoding="utf-8"?>
-										<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-											 viewBox="128 361.3 745 29.7" style="enable-background:new 128 361.3 745 29.7;" xml:space="preserve">
-										<style type="text/css">
 											
-												.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0,6;}
-										</style>
-										<line id="XMLID_27_" class="st0" x1="-153.5" y1="387" x2="1130.5" y2="387"/>
-										</svg>
-																													 	 
-								</div>	
+										<?xml version="1.0" encoding="utf-8"?>
+
+											<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="185.5 383 603 7.5" style="enable-background:new 185.5 383 603 7.5;" xml:space="preserve">
+											<style type="text/css">
+												
+													.st0{fill:#E21010;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0,6;}
+												
+													.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0,10;}
+											</style>
+											<rect x="171.5" y="521" class="st0" width="694.5" height="44.5"/>
+											<line id="XMLID_27_" class="st1" x1="185.5" y1="386.6" x2="793" y2="386.6"/>
+											</svg>
+
+											
+											<div class="hi-icon-wrap hi-icon-effect-8">
+												<a href="#set-8" class="hi-icon hi-icon-archive">Archive</a>	
+											</div>																		 	 
+								</div>	 -->
+								
       
 
 				         </div>

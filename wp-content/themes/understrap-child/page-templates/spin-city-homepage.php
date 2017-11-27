@@ -37,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						HOME_KAKO KORISTI SPIN CITY
 
 		*****************************************/ -->
-		<div class="fluid-container p-5" id="kako" >
+		<div class="fluid-container p-5" id="kako" name="kako">
 			
 			<div class="container">
 				<div class="row align-items-center">
@@ -63,6 +63,31 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- https://codepen.io/gil--/pen/bNxZWg -->
 
  <!-- https://codepen.io/icutpeople/pen/whueK --> 
+	
+<!-- <section class="demo">
+					<div class="spacer s2"></div>
+					<div id="trigger1" class="spacer s0"></div>
+					<div id="animate1" class="box2 skin">
+						<p>You wouldn't like me, when I'm angry!</p>
+						<a href="#" class="viewsource">view source</a>
+					</div>
+					<div class="spacer s2"></div>
+					<script>
+							
+						var controller = new ScrollMagic.Controller();
+							// build scene
+							var scene = new ScrollMagic.Scene({
+												triggerElement: "#trigger1"
+											})
+											.setTween("#animate1", 0.5, {backgroundColor: "green", scale: 2.5}) // trigger a TweenMax.to tween
+											.addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
+											.addTo(controller);
+					</script>
+				</section>
+ -->
+	
+
+
 	<div id="tri_videa" class="fluid-container">
 		<div class="row">
 			<div class="col-md-4">
@@ -75,8 +100,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			     <div class="overlay-desc">
 					
-			        <h3 class="text-white pt-5"><i class="fa fa-play text-center" aria-hidden="true"></i><br> LOCIRAJ VOZILO</h3><br>
-			        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			        <h3 class="text-white"><div class="hi-icon-wrap hi-icon-effect-8">
+												<a href="#set-8" class="hi-icon hi-icon-spin">Archive</a>
+											</div><!-- <i class="fa fa-play text-center" aria-hidden="true"></i> --><br> LOCIRAJ VOZILO</h3><br>
+			        <p class="text-white smanji">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			        tempor incididunt ut labore et dolore magna aliqua. </p>	
 			     </div>
 
@@ -108,8 +135,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 					     Your browser does not support the video tag.
 				   </video>
 			     <div class="overlay-desc">
-			        <h3 class="text-white  pt-5"><i class="fa fa-play text-center" aria-hidden="true"></i><br>VOZI</h3>
-			        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			        <h3 class="text-white"><div class="hi-icon-wrap hi-icon-effect-8">
+												<a href="#set-8" class="hi-icon hi-icon-spin">Archive</a>
+											</div><!-- <i class="fa fa-play text-center" aria-hidden="true"></i> --> <br>VOZI</h3><br>
+			        <p class="text-white smanji">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			        tempor incididunt ut labore et dolore magna aliqua. </p>
 			     </div>
 				</div>
@@ -135,8 +164,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 					     Your browser does not support the video tag.
 				   </video>
 			     <div class="overlay-desc">
-			        <h3 class="text-white  pt-5"><i class="fa fa-play text-center" aria-hidden="true"></i><br>PARKIRAJ</h3>
-			        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			        <h3 class="text-white ">
+			        	<div class="hi-icon-wrap hi-icon-effect-8">
+												<a href="#set-8" class="hi-icon hi-icon-spin">Archive</a>
+											</div><!-- <i class="fa fa-play text-center" aria-hidden="true"></i> --><br>PARKIRAJ</h3><br>
+			        <p class="text-white smanji">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			        tempor incididunt ut labore et dolore magna aliqua. </p>
 			     </div>
 				</div>
@@ -172,6 +204,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 						HOME_ZAŠTO KORISTITI SPIN CITY
 
 		*****************************************/ -->
+
+<!-- <section id="set-8">
+				<div class="hi-icon-wrap hi-icon-effect-8">
+					<a href="#set-8" class="hi-icon hi-icon-archive">Archive</a>
+					<a href="#set-8" class="hi-icon hi-icon-chat">Chat</a>
+					<a href="#set-8" class="hi-icon hi-icon-bookmark">Bookmarks</a>
+					<a href="#set-8" class="hi-icon hi-icon-user">User</a>
+					<a href="#set-8" class="hi-icon hi-icon-contract">Contact</a>
+				</div>
+			</section> -->
 
 
 

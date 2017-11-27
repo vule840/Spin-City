@@ -1,4 +1,8 @@
+
 jQuery(document).ready(function($) {
+    
+
+
     // $() will work as an alias for jQuery() inside of this function
     var figure = $(".video").hover( hoverVideo, hideVideo );
 
@@ -48,14 +52,15 @@ var animated = false; //added variable to control the animation
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {
         scrollFunction()
-    }
-    ;
+    };
 
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             document.getElementById("myBtn").style.display = "block";
+            $('.navbar').addClass('fixed-top');  
         } else {
             document.getElementById("myBtn").style.display = "none";
+            $('.navbar').removeClass('fixed-top');
         }
     }
 
@@ -66,6 +71,7 @@ var animated = false; //added variable to control the animation
         document.documentElement.scrollTop = 0;
         // For IE and Firefox
     }
+
 
 
 		

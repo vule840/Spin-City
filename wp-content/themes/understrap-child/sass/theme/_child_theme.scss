@@ -153,12 +153,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bc8b1', end
 		  }
 		  .period {
 		    font-size: 1rem;
-		    color: lighten($main-font-color, 20%);
+		    color: #b3b3b3;
 		    letter-spacing: 0px;
-		    left: -20px;
-    		top: 24px;
-    		font-size: 1.6rem;
-    		position:relative;
+		    left: -32px;
+		    top: 25px;
+		    font-size: 1.8rem;
+		    position: relative;		   
 		  }
 		}
 
@@ -338,6 +338,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9449d0', end
 	
 	  position: absolute;
 	  top: 0; right: 0; bottom: 0; left: 0;
+	   p.smanji{
+	  	width: 70%;
+    	margin: 0 auto;
+	  }
 	  
 	}
 }
@@ -406,7 +410,7 @@ video::-webkit-media-controls {
 /***** KONTAKTIRAJTE *****/
 #kontaktirajte{
 
-	padding: 10em 0;
+	padding: 2em 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9449d0+0,7239a0+100 */
 background: rgb(148,73,208); /* Old browsers */
 background: -moz-linear-gradient(-45deg, rgba(148,73,208,1) 0%, rgba(114,57,160,1) 100%); /* FF3.6-15 */
@@ -601,6 +605,9 @@ color:white;
     color: #fff;
         position: relative;
         top: 10%;
+        .cover-heading{
+        	font-weight: 300;
+        }
 }
 
 .cover .btn-lg {
@@ -662,7 +669,9 @@ color:white;
 	}
 
 }
-
+.navbar-brand{
+	padding-top: 1.2em;
+}
 .navbar-dark .navbar-nav .nav-link{
 	 text-transform: uppercase;
     /*padding:0 2em;*/
@@ -722,6 +731,14 @@ ul.footer{
 #main-container {
   width: 100%;
       position: relative;
+      max-width: 650px;
+      margin: 0 auto;
+
+      img{
+      	    position: relative;
+		    top: 75px;
+		    left: -308px;
+      }
   /*overflow: auto;*/
  /* height: 100px;*/
  svg{
@@ -763,7 +780,10 @@ section.red {
   filter: brightness(50%)
 }
 }
-
+ p.smanji{
+	  	width: 70%;
+    	margin: 0 auto;
+	  }
 #tri_videa video {
   height: auto;
   vertical-align: middle;
@@ -778,11 +798,21 @@ section.red {
   align-items: center;
   justify-content: center;
   text-align: center;
+
+
+	/*&:hover {
+		    h3,p{
+		    	display: none;
+		    }
+		  }*/
+
+
   h1 {
   color: white;
   font-family: 'Nobile', sans-serif;
  /* font-size: 9vw;*/
   text-align: center;
+ 	
   .fa{
   	display: flow-root;
   }
@@ -823,4 +853,164 @@ svg rect{
     z-index: 99;
     background-image: none;
     cursor: pointer;
+    padding: 0.7em 1.2em;
 }
+//izbornik sticky
+.fixed-top{
+	margin: 1.5em 0;
+	background: rgba(0,0,0,0.5);
+	-webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+    transition: transform;
+    padding-bottom:1em; 
+    transition: background 300ms ease-out;
+}
+
+
+//IKONE
+#set-8 {
+    background: #3851bc;
+}
+.hi-icon-wrap {
+    /*text-align: center;
+    margin: 0 auto;
+    padding: 2em 0 3em;*/
+}
+.hi-icon-effect-8 .hi-icon {
+    background: rgba(255,255,255,0.1);
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+    transition: transform ease-out 0.1s, background 0.2s;
+}
+.hi-icon {
+    display: inline-block;
+    font-size: 0px;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.hi-icon-archive:before {
+   /* content: "\e00f";*/
+   content: "\f024";
+
+}
+.hi-icon-chat:before {
+   /* content: "\e00f";*/
+   content: "\f107 ";
+
+}
+.hi-icon-spin:before {
+   /* content: "\e00f";*/
+   content: "\f144 ";
+
+}
+.hi-icon:before {
+   /* font-family: 'ecoicon';*/
+   font-family: 'FontAwesome';
+    speak: none;
+    font-size: 25px;
+    line-height: 52px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+.hi-icon-effect-8 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.1);
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.hi-icon-effect-8 .hi-icon:hover {
+	background: rgba(255,255,255,0.05);
+	-webkit-transform: scale(0.93);
+	-moz-transform: scale(0.93);
+	-ms-transform: scale(0.93);
+	transform: scale(0.93);
+	color: #fff;
+	text-decoration: none; 
+}
+
+.hi-icon-effect-8 .hi-icon:hover:after {
+	-webkit-animation: sonarEffect 1.3s ease-out 75ms;
+	-moz-animation: sonarEffect 1.3s ease-out 75ms;
+	animation: sonarEffect 1.3s ease-out 75ms;
+}
+
+@-webkit-keyframes sonarEffect {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #8C4EC4, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #8C4EC4, 0 0 0 10px rgba(255,255,255,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@-moz-keyframes sonarEffect {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #8C4EC4, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #8C4EC4, 0 0 0 10px rgba(255,255,255,0.5);
+		-moz-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@keyframes sonarEffect {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #8C4EC4, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #8C4EC4, 0 0 0 10px rgba(255,255,255,0.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+/*.box1, .box2, .box3 {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    border: 0px solid white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 5px;
+}*/
