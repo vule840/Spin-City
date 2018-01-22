@@ -1005,7 +1005,7 @@ svg rect{
 	}
 }
 
-/*.box1, .box2, .box3 {
+.box1, .box2, .box3 {
     display: inline-block;
     position: relative;
     border-radius: 8px;
@@ -1013,4 +1013,21 @@ svg rect{
     text-align: center;
     vertical-align: middle;
     padding: 0 5px;
-}*/
+}
+.box2 {
+    min-width: 50px;
+    height: 50px;
+    margin: 25px auto 25px auto;
+}
+
+.blue {
+    background-color: #3883d8;
+}
+.box1 {
+    min-width: 100px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+}
+.skin{
+	background: orange;
+}

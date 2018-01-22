@@ -11,6 +11,7 @@ var browserSyncWatchFiles = [
    /* './css/*.css',*/
     './css/*.css',
     './js/*.min.js',
+    './js/*.js',
     './*.php',
     './page-templates/*.php',
     './loop-templates/*.php'

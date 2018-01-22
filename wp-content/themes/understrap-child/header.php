@@ -146,7 +146,7 @@ function topFunction() {
 
 							<!-- https://codepen.io/AllThingsSmitty/pen/NbLLjb -->	
 					  <!-- video from http://evb.com, I hope they don't mind much :) -->
-					  <video loop preload autoplay>
+					  <video poster="../spincity/wp-content/uploads/2018/01/spin_pocetna.jpg" loop preload autoplay>
 					    <source id="source_polar_mp4" src="wp-content/uploads/2017/11/Spin City_animacija.mp4" type="video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
 					    <source id="source_polar_webm" src="https://d2pxo8g26zv991.cloudfront.net/wp-content/uploads/2014/10/HomeVideo_v04_1.webm" type="video/webm;codecs=&quot;vp8, vorbis&quot;">
 					  </video>
@@ -166,12 +166,20 @@ function topFunction() {
 							            </p>
 
 							            <!-- <p class="scroll-auto"> </p> -->
-							            	
-				         </div>
+							          
+					  <div class="spacer s2"></div>
+<div id="trigger1" class="spacer s0"></div>
+<div id="animate1" class="box2 skin">
+	<p>You wouldn't like me, when I'm angry!</p>
+	<a href="#" class="viewsource">view source</a>
+</div>
+<div class="spacer s2"></div>
+
+						 </div>
 						 	
 				         <div class="container">
 				         	
-				         	
+				      
 				         	<!-- <div id="main-container">
 										
 										<img style="position: relative;" src="wp-content/uploads/2017/10/mali_auto1.png" alt="">
@@ -201,9 +209,9 @@ function topFunction() {
       
 
 				         </div>
-				
+						
 					</section>
-
+			
 
 			<?php endif ?> 
 
